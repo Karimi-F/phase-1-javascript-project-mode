@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCards</title>
+    <link rel="stylesheet" href="/css/style.css">  <!--The link to css-->
+</head>
+<body>
+    <header>
+        <div class="container"></div> <!--the outer most container that contains everything-->
+    <div class="nav">
+        <h1>Flashcards</h1>
+        <div class="div-btn" id="new-and-delete-btn">
+            <button id="new-flashcard">Create FlashCard</button>
+            <button id="del-flashcard">Delete FlashCard</button>
+        </div>
+    </div>
+    </header>
+    <div class="container">
+        <div>
+            <form id="hsk-level-frm" >
+                <h3>Hanyu Shuiping Kaoshi Level</h3>
+                <div>
+                    <label for="">
+                        <input type="radio">HSK Level 1
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 2
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 3
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 4
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 5
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 6
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 7
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 8
+                    </label><br>
+                    <label for="">
+                        <input type="radio">HSK Level 9
+                    </label><br>
+                </div>
+                
+                <button class="div-btn" id="submit-btn">Submit</button>
+            </form>
+        </div>
+        <div class="create-flashcard">
+            <h2>Create FlashCard</h2>
+            <label for="question" id="question">Question</label>
+            <textarea name="question-area" id="question-area"></textarea>
+            <label for="answer" id="answer">Answer</label>
+            <textarea name="answer-area" id="answer-area"></textarea>
+            <div class="div-btn" id="save-and-close-btn">
+                <button id="save">Save</button>
+                <button id="close">Close</button>
+            </div>
+        </div>
+        <div class="flashcards"></div>
+    </div>
+</body>
+</html>
