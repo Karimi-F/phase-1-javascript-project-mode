@@ -193,13 +193,13 @@ h3{
     width: 100%;
     height: 100%;
     justify-content: center;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
+    /* transition: transform 0.5s;
+    transform-style: preserve-3d; */
 }
 
-.flashcards:hover{
+/* .flashcards:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .flipping{
     padding: 8px;
