@@ -15,3 +15,19 @@
 // 3. PATCH
 // 4. DELETE
 
+document.addEventListener("DOMContentLoaded", () => {
+    const flashcardsContainer = document.querySelector('.flashcards-container');
+    const createBtn = document.getElementById('new-flashcard');
+    const deleteBtn = document.getElementById('del-flashcard');
+    const submitBtn = document.getElementById('submit-btn');
+    const saveBtn = document.getElementById('save-btn');
+    const closeBtn = document.getElementById('close-btn');
+    let flashcards = [];
+})
+
+const fetchFlashcards = () = {
+    fetch ('db.json')
+    .then (response => response)
+    
+
+}

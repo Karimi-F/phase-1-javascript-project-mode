@@ -141,7 +141,7 @@ h3{
     justify-content: space-between;
 }
 
-#save{
+#save-btn{
     padding: 5px;
     background-color: aliceblue;
     color: rgba(59, 120, 173, 0.966);
@@ -151,13 +151,13 @@ h3{
     transition: 0.3s;
 }
 
-#save:hover{
+#save-btn:hover{
     background-color: rgba(59, 120, 173, 0.966);
     color: aliceblue;
     font-weight: 500;
 }
 
-#close{
+#close-btn{
     padding: 5px;
     background-color: aliceblue;
     color: rgba(59, 120, 173, 0.966);
@@ -167,7 +167,7 @@ h3{
     transition: 0.3s;
 }
 
-#close:hover{
+#close-btn:hover{
     background-color: rgba(59, 120, 173, 0.966);
     color: aliceblue;
     font-weight: 500;
