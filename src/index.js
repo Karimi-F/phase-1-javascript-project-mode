@@ -1,4 +1,4 @@
-const baseUrl = 'https://my-json-server.typicode.com/Karimi-F/phase-1-javascript-project-mode/words'
+// const baseUrl = 'https://my-json-server.typicode.com/Karimi-F/phase-1-javascript-project-mode/words'
 
 document.addEventListener('DOMContentLoaded', () =>{
   const createBtn = document.getElementById('create-btn');
@@ -99,7 +99,7 @@ function toggleCard(card) {
   const toggleOnElements = card.querySelectorAll('.toggle-on');
   const toggleOffElements = card.querySelectorAll('.toggle-off');
 
-  // Check if the toggle-on elements are currently visible
+
   const isVisible = toggleOnElements[0].style.display !== 'none';
 
   // Toggle visibility
@@ -110,3 +110,4 @@ function toggleCard(card) {
       element.style.display = isVisible ? 'block' : 'none';
   });
 }
+
