@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
 const fetchFlashcards = () = {
     fetch ('db.json')
     .then (response => response)
-    
-
-}
+    .then(data => {
+        flashcards = data.words;
+        renderFlashcards(flashcards);
+    });
+};
