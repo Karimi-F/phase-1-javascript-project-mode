@@ -1,40 +1,82 @@
 {
-    "words" : [
-        {
-            "id" : "1",
-            "Hanzi" : "我",
-            "Pinyin" : "wǒ",
-            "English translation" : "I or me"
-        },
-        {
-            "id" : "2",
-            "Hanzi" : "你",
-            "Pinyin" : "nǐ",
-            "English translation" : "you"
-        },
-        {
-            "id" : "3",
-            "Hanzi" : "说",
-            "Pinyin" : "shuō",
-            "English translation" : "speak"
-        },
-        {
-            "id" : "4",
-            "Hanzi" : "什么",
-            "Pinyin" : "shénme",
-            "English translation" : "what"
-        },
-        {
-            "id" : "5",
-            "Hanzi" : "读",
-            "Pinyin" : "dú",
-            "English translation" : "read"
-        },
-        {
-            "id" : "6",
-            "Hanzi" : "谁",
-            "Pinyin" : "shéi",
-            "English translation" : "who"
-        }
-    ]
+  "words": [
+    {
+      "id": "1",
+      "level": "1",
+      "Hanzi": "我",
+      "Pinyin": "wǒ",
+      "English translation": "I or me"
+    },
+    {
+      "id": "2",
+      "level": "1",
+      "Hanzi": "你",
+      "Pinyin": "nǐ",
+      "English translation": "you"
+    },
+    {
+      "id": "3",
+      "level": "1",
+      "Hanzi": "说",
+      "Pinyin": "shuō",
+      "English translation": "speak"
+    },
+    {
+      "id": "4",
+      "level": "1",
+      "Hanzi": "什么",
+      "Pinyin": "shénme",
+      "English translation": "what"
+    },
+    {
+      "id": "5",
+      "level": "1",
+      "Hanzi": "读",
+      "Pinyin": "dú",
+      "English translation": "read"
+    },
+    {
+      "id": "6",
+      "level": "1",
+      "Hanzi": "谁",
+      "Pinyin": "shéi",
+      "English translation": "who"
+    },
+    {
+      "id": "473f",
+      "Hanzi": "你好",
+      "Pinyin": "Nǐ hǎo",
+      "English translation": "Hello"
+    },
+    {
+      "id": "898e",
+      "Hanzi": "意识",
+      "Pinyin": "yìshí",
+      "English translation": "consciousness"
+    },
+    {
+      "id": "bb60",
+      "Hanzi": "时间",
+      "Pinyin": "shíjiān",
+      "English translation": "Time"
+    },
+    {
+      "id": "1b8b",
+      "Hanzi": "认为",
+      "Pinyin": "rènwéi",
+      "English translation": "to think; to believe"
+    },
+    {
+      "id": "d7cf",
+      "Hanzi": "负责",
+      "Pinyin": "fùzé",
+      "English translation": "To be responsible for"
+    },
+    {
+      "id": "8cb6",
+      "Hanzi": "经验",
+      "Pinyin": "jīngyàn",
+      "English translation": "experience"
+    }
+  ]
 }
