@@ -147,19 +147,7 @@ h2{
     transform: scale(1.05); 
 }
 
-/* .card-content {
-    margin-bottom: 10px; 
-} */
 
-/* .toggle-btn{
-    padding: 5px;
-    background-color: aliceblue;
-    color: rgba(59, 120, 173, 0.966);
-    width: 60px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
 .toggle-btn:hover{
     background-color: rgba(59, 120, 173, 0.966);
@@ -174,9 +162,6 @@ h2{
 
 }
 
-/* .toggle-off {
-    display: none;
-} */
 
 .toggle-btn{
     width: 80px;
@@ -198,4 +183,18 @@ h2{
     padding: 20px;
     height: 30px;
     text-align: center;
+}
+
+#filter-form{
+    /* display: none; */
+    flex-direction: column;
+    border: 2px solid;
+    width: 600px;
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+}
+
+filter-btn{
+    width: 150px;
 }

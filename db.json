@@ -43,40 +43,67 @@
       "English translation": "who"
     },
     {
-      "id": "473f",
+      "id": "f765",
+      "level": "1",
       "Hanzi": "你好",
       "Pinyin": "Nǐ hǎo",
-      "English translation": "Hello"
+      "English translation": "Hello\n"
     },
     {
-      "id": "898e",
-      "Hanzi": "意识",
-      "Pinyin": "yìshí",
-      "English translation": "consciousness"
+      "id": "b1e2",
+      "level": "2",
+      "Hanzi": "想",
+      "Pinyin": "xiǎng",
+      "English translation": " To want"
     },
     {
-      "id": "bb60",
-      "Hanzi": "时间",
-      "Pinyin": "shíjiān",
-      "English translation": "Time"
+      "id": "dcc3",
+      "level": "2",
+      "Hanzi": "快乐",
+      "Pinyin": "kuàilè",
+      "English translation": "Happy"
     },
     {
-      "id": "1b8b",
-      "Hanzi": "认为",
-      "Pinyin": "rènwéi",
-      "English translation": "to think; to believe"
+      "id": "9eae",
+      "level": "3",
+      "Hanzi": "努力",
+      "Pinyin": "nǔlì",
+      "English translation": "To strive; To work hard"
     },
     {
-      "id": "d7cf",
-      "Hanzi": "负责",
-      "Pinyin": "fùzé",
-      "English translation": "To be responsible for"
+      "id": "bf27",
+      "level": "3",
+      "Hanzi": "通常",
+      "Pinyin": "tōngcháng",
+      "English translation": "Usually; Normally"
     },
     {
-      "id": "8cb6",
-      "Hanzi": "经验",
-      "Pinyin": "jīngyàn",
-      "English translation": "experience"
+      "id": "b030",
+      "level": "4",
+      "Hanzi": "研究",
+      "Pinyin": "yánjiū",
+      "English translation": "To research; Research"
+    },
+    {
+      "id": "6730",
+      "level": "6",
+      "Hanzi": "文化",
+      "Pinyin": "wénhuà",
+      "English translation": "Culture"
+    },
+    {
+      "id": "1f5a",
+      "level": "5",
+      "Hanzi": "普遍",
+      "Pinyin": "pǔbiàn",
+      "English translation": "Common; Widespread"
+    },
+    {
+      "id": "678a",
+      "level": "4",
+      "Hanzi": "发展",
+      "Pinyin": "fāzhǎn",
+      "English translation": "To develop; Development"
     }
   ]
 }

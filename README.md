@@ -1,4 +1,93 @@
-# Phase 1 Project Guidelines
+# Hanzi Flashcards
+
+## Overview
+The Hanzi Flashcards application is a web-based tool designed to help users learn and memorize Chinese characters (Hanzi) along with their Pinyin pronunciation and English translations. Users can create, view, and filter flashcards based on HSK (Hanyu Shuiping Kaoshi) levels, making it an effective study aid for beginners and intermediate learners of Chinese.
+
+## Features
+- **Create Flashcards**: Users can create new flashcards by entering the Hanzi, Pinyin, and English translation, as well as selecting the appropriate HSK level.
+- **View Flashcards**: Flashcards are displayed in a visually engaging format that allows users to flip the card to see the English translation.
+- **Delete Flashcards**: Users can delete flashcards they no longer need.
+- **Filter Flashcards**: Users can filter flashcards by HSK levels to focus on specific vocabulary sets.
+- **Responsive Design**: The application is designed to be user-friendly and responsive for various screen sizes.
+
+## Technologies Used
+- **HTML**: For the structure of the application.
+- **CSS**: For styling and layout.
+- **JavaScript**: For functionality and interactivity.
+- **JSON Server**: For simulating a backend database to store flashcard data.
+
+## Getting Started
+
+### Prerequisites
+- Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd hanzi-flashcards
+   ```
+
+2. Navigate to the project directory.
+
+3. Run the JSON server:
+   ```bash
+   npm install -g json-server
+   json-server --watch db.json
+   ```
+   This will start a server at `http://localhost:3000`.
+
+4. Open `index.html` in your web browser.
+
+### File Structure
+```
+hanzi-flashcards/
+│
+├── css/
+│   └── style.css         # Styles for the application
+│
+├── src/
+│   └── index.js          # JavaScript functionality for the application
+│
+├── db.json               # JSON database for storing flashcard data
+│
+└── index.html            # Main HTML file
+```
+
+## Usage
+
+1. Open the application in a web browser.
+2. Click on the "Create" button to open the flashcard creation form.
+3. Fill in the fields with the Hanzi, Pinyin, English translation, and select the HSK level.
+4. Click "Save" to add the flashcard to the collection.
+5. Use the "Flip" button to see the English translation on the back of the card.
+6. Use the "Delete" button to remove any unwanted flashcards.
+7. Apply filters to view flashcards for specific HSK levels.
+
+## Future Enhancements
+- Implement user authentication for personalized flashcard collections.
+- Add additional features such as progress tracking and quizzes.
+- Improve the user interface with animations and enhanced styling.
+
+## Acknowledgements
+- Inspired by various language learning methodologies and flashcard applications.
+- Thanks to the open-source community for providing resources and libraries that facilitated the development of this project.
+
+## License
+This project is licensed under the MIT License.
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Phase 1 Project Guidelines
 
 ## Learning Goals
 
@@ -184,4 +273,4 @@ You can consult the [json-server docs][] for more information.
 
 [json-server]: https://www.npmjs.com/package/json-server
 [event-listeners]: https://developer.mozilla.org/en-US/docs/Web/Events
-[APIs]:  https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
+[APIs]:  https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/ -->

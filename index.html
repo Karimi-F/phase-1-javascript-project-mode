@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hanzi Flashcards</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header> 
         <div class="container">
             <div class="nav">
-                <h1>Flashcards</h1>
+                <h1> Hanzi Flashcards</h1>
                 <div class="div-btn">
                     <button class="button" id="create-btn" >Create</button>
                     <!-- <button class="button" id="delete-btn" >Delete</button> -->
@@ -61,6 +61,7 @@
             </div>
             <h2>FlashCards:</h2> 
             <div class="createdCards">
+                <p style="font-style: italic;">Example</p>
                <div class="whole-card">
                 <div class="card-container">
                     <div class="card">
@@ -80,7 +81,7 @@
                     </div>
                </div>
 
-               <div class="whole-card">
+               <!-- <div class="whole-card">
                 <div class="card-container">
                     <div class="card">
                         <div class="card-front">
@@ -97,9 +98,9 @@
                         <button class="button toggle-btn">Flip</button>
                         <button class="button delete-btn">Delete</button>
                    </div>
-               </div>
+               </div> -->
 
-             <div class="whole-card">
+             <!-- <div class="whole-card">
                 <div class="card-container">
                     <div class="card">
                         <div class="card-front">
@@ -116,7 +117,43 @@
                         <button class="button toggle-btn">Flip</button>
                         <button class="button delete-btn">Delete</button>
                     </div> 
-             </div>
+             </div> -->
+            </div>
+            <div class="filter">
+                <h2>Filter By Level:</h2>
+                <button class="button" id="filter-btn">Filter By Level</button>
+                <div id="filter-dropdown" style = "display:none">
+                    <form id="filter-form">
+                        <label for="">
+                            <input type="radio" name="level" value="1">Level 1
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="2">Level 2
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="3">Level 3
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="4">Level 4
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="5">Level 5
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="6">Level 6
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="7">Level 7
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="8">Level 8
+                        </label><br>
+                        <label for="">
+                            <input type="radio" name="level" value="9">Level 9
+                        </label>
+                        <button type="submit" class="button">Apply Filter</button>
+                    </form>
+                </div>
             </div>
         </div>
     </header>
