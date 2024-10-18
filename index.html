@@ -61,7 +61,7 @@
             </div>
             <h2>FlashCards:</h2> 
             <div class="createdCards">
-                <p style="font-style: italic;">Example</p>
+                <!-- <p style="font-style: italic;">Example</p> -->
                <div class="whole-card">
                 <div class="card-container">
                     <div class="card">
@@ -119,11 +119,12 @@
                     </div> 
              </div> -->
             </div>
-            <div class="filter">
+            <div class="filter-container">
                 <h2>Filter By Level:</h2>
                 <button class="button" id="filter-btn">Filter By Level</button>
                 <div id="filter-dropdown" style = "display:none">
                     <form id="filter-form">
+                        <p style="margin-bottom:15px ;">Which HSK Level do you want to focus on?</p>
                         <label for="">
                             <input type="radio" name="level" value="1">Level 1
                         </label><br>
@@ -151,7 +152,10 @@
                         <label for="">
                             <input type="radio" name="level" value="9">Level 9
                         </label>
-                        <button type="submit" class="button">Apply Filter</button>
+                        <div>
+                            <button type="submit" class="button" id="apply-filter-btn">Show Level Flashcards</button>
+                        </div>
+                        
                     </form>
                 </div>
             </div>

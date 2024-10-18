@@ -1,0 +1,16 @@
+{
+  "name": "phase-1-javascript-project-mode",
+  "version": "1.0.0",
+  "description": "## Overview The Hanzi Flashcards application is a web-based tool designed to help users learn and memorize Chinese characters (Hanzi) along with their Pinyin pronunciation and English translations. Users can create, view, and filter flashcards based on HSK (Hanyu Shuiping Kaoshi) levels, making it an effective study aid for beginners and intermediate learners of Chinese.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
