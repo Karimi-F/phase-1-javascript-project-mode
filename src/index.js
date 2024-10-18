@@ -12,11 +12,21 @@ document.addEventListener('DOMContentLoaded', () =>{
   form.addEventListener('submit',addFlashcard);
   filterBtn.addEventListener('click',toggleFilterDropdown);
   filterForm.addEventListener('submit', applyFilter);
+  // closeButton.addEventListener('click', hideFlashcardForm);
   getFlashcards();
 });
 
+// function hideFlashcardForm() {
+//   const formContainer = document.getElementById('flashcard-form-container');
+//   formContainer.style.display = 'none'; 
+// }
 
 
+// const closeButton = document.getElementById('close-btn');
+
+
+
+//This function allows the visibility and invisibility of the create a flashcard form 
 function showsForm() {
   const form = document.getElementById('flashcard-frm');
 
@@ -35,7 +45,7 @@ function showsForm() {
 }
 
 
-
+//The function that allows cards to be added to the flashcard data
 function addFlashcard(event){
   event.preventDefault();
   // console.log('Submission prevented')
@@ -72,6 +82,7 @@ function addFlashcard(event){
       alert('Please fill out all fields.');
   }}
 
+  // The function that creates flashcards and ensures each input is correctly placed.
 function createFlashcards(level,Hanzi,pinyin, englishTranslation){
   const createdCards = document.querySelector('.createdCards');
 
@@ -99,6 +110,7 @@ function createFlashcards(level,Hanzi,pinyin, englishTranslation){
 
       createdCards.appendChild(card);
 
+
       card.querySelector('.delete-btn').addEventListener('click', delCards);
       // console.log('deleted');
 
@@ -110,7 +122,7 @@ function createFlashcards(level,Hanzi,pinyin, englishTranslation){
       // console.log('Card appended to createdCards');
       // postFlashcard(flashcardData);
 }
-  
+  //Allows the card to flip once the toggle button is clicked on.
 document.querySelectorAll('.toggle-btn').forEach(button => {
   button.addEventListener('click', () => {
       const card = button.closest('.card');
@@ -119,11 +131,12 @@ document.querySelectorAll('.toggle-btn').forEach(button => {
   });
 });
 
-
+//This function allows the flashcards to be displayed once they are created.
 function displayFlashcards(flashcards){
   const createdCards = document.querySelector('.createdCards');
   createdCards.innerHTML = '';
 
+  //Allows each card to be displayed separately.
   flashcards.forEach(flashcard => {
     const card = document.createElement('div');
     card.className = 'card-container';
@@ -147,12 +160,13 @@ function displayFlashcards(flashcards){
 
     createdCards.appendChild(card);
 
+    //Allows the card to be deleted upon the clicking of the delete button.
     card.querySelector('.delete-btn').addEventListener('click', (event) =>{
-      // const idToDelete = event.target.getAttribute('data-id');
       const id = flashcard.id;
       deleteFlashcard(id);
     });
 
+    
     card.querySelector('.toggle-btn').addEventListener('click', () => {
       card.querySelector('.card').classList.toggle('flipped');
   });
@@ -160,7 +174,7 @@ function displayFlashcards(flashcards){
 }
 
 
-
+//Allows us to POST data to the database once the card is created.
   function postFlashcard(flashcardData){
     fetch (`${baseUrl}`,{
       method: 'POST',
@@ -188,7 +202,7 @@ function displayFlashcards(flashcards){
       });
 }
 
-
+//Allows the create flashcard form to reset once a card has been created.
   function resetForm(){
     const form = document.getElementById('flashcard-frm');
     form.reset();
@@ -203,6 +217,7 @@ function delCards(event){
   console.log('Card deleted');
 }
 
+//Allows us to fetch data from the database using the GET method.
 function getFlashcards (selectedLevel){
   fetch(`${baseUrl}`,{
     method: 'GET',
@@ -232,7 +247,7 @@ function getFlashcards (selectedLevel){
   });
 }
     
-
+//Allows us to delete a card on the database using the DELETE method.
 function deleteFlashcard(id){
   fetch (`${baseUrl}/${id}`,{
     method: 'DELETE',
@@ -255,12 +270,13 @@ function deleteFlashcard(id){
     });
 }
   
-
+//Allows the visibility and invisibility of the filter by level form.
 function toggleFilterDropdown(){
   const filterDropdown = document.getElementById('filter-dropdown');
   filterDropdown.style.display = filterDropdown.style.display === 'none' || filterDropdown.style.display === '' ? 'block' : 'none';
 }
 
+//Allows the array iterator method, filter, tofilter through the levels and provide the level checked in the option.
 function applyFilter(event){
   event.preventDefault();
   console.log('Filter default submission prevented');
@@ -273,3 +289,4 @@ function applyFilter(event){
     alert('Please select a level to filter by.');
   }
 }
+

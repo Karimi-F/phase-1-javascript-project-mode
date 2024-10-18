@@ -2,115 +2,143 @@
   "words": [
     {
       "id": "1",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "我",
       "Pinyin": "wǒ",
       "English translation": "I or me"
     },
     {
       "id": "2",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "你",
       "Pinyin": "nǐ",
       "English translation": "you"
     },
     {
       "id": "3",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "说",
       "Pinyin": "shuō",
       "English translation": "speak"
     },
     {
       "id": "4",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "什么",
       "Pinyin": "shénme",
       "English translation": "what"
     },
     {
       "id": "5",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "读",
       "Pinyin": "dú",
       "English translation": "read"
     },
     {
       "id": "6",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "谁",
       "Pinyin": "shéi",
       "English translation": "who"
     },
     {
       "id": "f765",
-      "level": "1",
+      "level": "HSK Level 1",
       "Hanzi": "你好",
       "Pinyin": "Nǐ hǎo",
       "English translation": "Hello\n"
     },
     {
       "id": "b1e2",
-      "level": "2",
+      "level": "HSK Level 2",
       "Hanzi": "想",
       "Pinyin": "xiǎng",
       "English translation": " To want"
     },
     {
       "id": "dcc3",
-      "level": "2",
+      "level": "HSK Level 2",
       "Hanzi": "快乐",
       "Pinyin": "kuàilè",
       "English translation": "Happy"
     },
     {
       "id": "9eae",
-      "level": "3",
+      "level": "HSK Level 3",
       "Hanzi": "努力",
       "Pinyin": "nǔlì",
       "English translation": "To strive; To work hard"
     },
     {
       "id": "bf27",
-      "level": "3",
+      "level": "HSK Level 3",
       "Hanzi": "通常",
       "Pinyin": "tōngcháng",
       "English translation": "Usually; Normally"
     },
     {
       "id": "b030",
-      "level": "4",
+      "level": "HSK Level 4",
       "Hanzi": "研究",
       "Pinyin": "yánjiū",
       "English translation": "To research; Research"
     },
     {
       "id": "6730",
-      "level": "6",
+      "level": "HSK Level 6",
       "Hanzi": "文化",
       "Pinyin": "wénhuà",
       "English translation": "Culture"
     },
     {
       "id": "1f5a",
-      "level": "5",
+      "level": "HSK Level 5",
       "Hanzi": "普遍",
       "Pinyin": "pǔbiàn",
       "English translation": "Common; Widespread"
     },
     {
       "id": "678a",
-      "level": "4",
+      "level": "HSK Level 4",
       "Hanzi": "发展",
       "Pinyin": "fāzhǎn",
       "English translation": "To develop; Development"
     },
     {
-      "id": "0d35",
+      "id": "d420",
       "level": "HSK Level 2",
-      "Hanzi": "nhfnn",
-      "Pinyin": "nf",
-      "English translation": "fn"
+      "Hanzi": "朋友",
+      "Pinyin": "péngyǒu",
+      "English translation": "Friend"
+    },
+    {
+      "id": "16db",
+      "level": "HSK Level 4",
+      "Hanzi": "注意",
+      "Pinyin": "zhùyì",
+      "English translation": "To pay attention to"
+    },
+    {
+      "id": "a1e2",
+      "level": "HSK Level 1",
+      "Hanzi": "谢谢",
+      "Pinyin": "xièxiè",
+      "English translation": "Thank you"
+    },
+    {
+      "id": "f79d",
+      "level": "HSK Level 1",
+      "Hanzi": "再见",
+      "Pinyin": "zàijiàn",
+      "English translation": "Goodbye"
+    },
+    {
+      "id": "4d0b",
+      "level": "HSK Level 2",
+      "Hanzi": "告诉",
+      "Pinyin": "gàosù",
+      "English translation": "To tell"
     }
   ]
 }
