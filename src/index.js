@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000/words'
+const baseUrl = 'https://phase-1-javascript-project-mode-4c25.onrender.com/words'
 
 document.addEventListener('DOMContentLoaded', () =>{
   const createBtn = document.getElementById('create-btn');
